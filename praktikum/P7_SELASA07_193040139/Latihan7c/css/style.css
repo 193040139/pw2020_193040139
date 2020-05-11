@@ -1,0 +1,13 @@
+.container {
+	width: 500px;
+}
+.gambar {
+	width: 150px;
+}
+.keterangan {
+	text-align: center;
+	color: black;
+}
+.tombol_kembali{
+	position: left;
+}
