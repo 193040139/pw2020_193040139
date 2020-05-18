@@ -1,0 +1,18 @@
+
+th {
+	background-color: pink;
+}
+
+.hapus {
+	background-color: red;
+}
+.add {
+ 	background-color: yellow;
+ 	width: 100px;
+ 		}
+ img{
+ 	width: 150px;
+}
+ .logout {
+ 	position: left;
+ }

@@ -1,0 +1,170 @@
+body {
+	font-family: georgia;
+	background: -webkit-radial-gradient(bottom,green, #a6f77b);
+	background-repeat:no-repeat;
+}
+.container {
+
+			text-align: center;
+}
+.nama {
+			text-align:left;
+		
+}
+.kotak{
+	background: #fbfbfb;
+	border-radius: 8px;
+	box-shadow: 1px, 2px, 8px, rgba(0,0,0,0.6);
+	height: 300px;
+	margin: 2rem auto;
+	width: 500px;
+
+}
+.kotak:hover{
+	filter:saturate(200%);	
+	-ms-filter:saturate(200%);
+	-o-filter:saturate(200%);
+	-webkit-filter:saturate(200%);
+	-moz-filter:saturate(200%);
+
+}
+.kotak img{
+	width: 150px;
+	height: 150px;
+	border : 1px solid black;
+	border-radius: 100%;
+	background-position: relative;
+	transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-webkit-transition: all .3s ease;	
+}
+
+.kotak p{
+	font-family: arial;
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: -80px;
+	left: 0px;
+	opacity: 0;
+	z-index: 9999;
+	transition: all 0s ease;
+	-webkit-transition: all 0s ease;
+	-moz-transition: all 0s ease;
+	-ms-transition: all 0s ease;
+	-o-transition: all 0s ease;
+	border-radius: 0px 0px 8px 8px;
+}
+.kotak:hover img{
+	box-shadow: 0 0 100px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 100px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 100px rgba(0,0,0,.5);
+	-ms-box-shadow: 0 0 100px rgba(0,0,0,.5);
+	z-index: -9999;
+}
+.kotak:hover p{
+	opacity: 1;
+	bottom: -15px;
+}
+.kotak a{
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.kotak h6 {
+	font-size: 12px;
+	color: skyblue;
+}
+.kotak h5{
+	font-size: 15px;
+}
+h2{
+	padding: 5px;
+}
+#card {
+	background: #fbfbfb;
+	border-radius: 10px;
+	box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.5);
+	margin: 6rem auto 8.1rem auto;
+	width: 400px;
+	height: 600px;
+}
+#card-content {
+      padding: 12px 44px;
+}
+#card-title {
+      font-family: thin sans-serif;
+      letter-spacing: 4px;
+      padding-bottom: 23px;
+      padding-top: 13px;
+      text-align: center;
+}
+.underline{
+      background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+      height: 2px;
+      margin: -1.1rem auto 0 auto;
+      width: 89px;
+}
+a {
+    text-decoration: none;
+}
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+#forgot-pass {
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+    height: 1px;
+    width: 100%;
+}
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 1px;
+}
+#signup {
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit-btn {
+    background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #24c64f;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 100px;
+}
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px #24c64f;
+}
